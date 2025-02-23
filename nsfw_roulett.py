@@ -1,7 +1,7 @@
 #commands: nsfw
 #I think it is not necessary to explain its functionality. 
 
-__version__ = (1,1)
+__version__ = (1 , 1)
 import os
 import logging
 from .. import loader, utils
