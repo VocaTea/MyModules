@@ -1,5 +1,5 @@
 #commands: nlh
-__version__ = (1 , 0)
+__version__ = (1, 0)
 import os
 import logging
 from .. import loader, utils
