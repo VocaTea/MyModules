@@ -16,7 +16,7 @@ class рулетка(loader.Module):
     """Anime arts roulet"""
     strings = {
         "name": "Рулетка",
-        "search": <emoji document_id=5188311512791393083>🔎</emoji> search your art..."
+        "search": "<emoji document_id=5188311512791393083>🔎</emoji> search your art..."
     }
     
     async def nlhcmd(self, message: Message):
