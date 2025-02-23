@@ -11,13 +11,13 @@ import datetime
 from telethon import functions
 from telethon.tl.custom import Message
 
-logger = logging.getLogger("Hentai")
+logger = logging.getLogger("HentaiRoulet")
 
 @loader.tds
-class Hentai(loader.Module):
+class HentaiRoulet(loader.Module):
     """Hentai roulet"""
     strings = {
-        "name": "Hentai",
+        "name": "HentaiRoulet",
         "search": "<emoji document_id=5368580099182435492>👁</emoji> loading your Hentai..."
     }
     
