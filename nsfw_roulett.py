@@ -1,7 +1,20 @@
+# ---------------------------------------------------------------------------------
+#░█▀▄░▄▀▀▄░█▀▄░█▀▀▄░█▀▀▄░█▀▀▀░▄▀▀▄░░░█▀▄▀█
+#░█░░░█░░█░█░█░█▄▄▀░█▄▄█░█░▀▄░█░░█░░░█░▀░█
+#░▀▀▀░░▀▀░░▀▀░░▀░▀▀░▀░░▀░▀▀▀▀░░▀▀░░░░▀░░▒▀
+# Name: hent
+# Description: words superfluous?
+# Author: @VocaTea
+# ---------------------------------------------------------------------------------
+# 🔒    Licensed under the GNU AGPLv3
+# 🌐 https://www.gnu.org/licenses/agpl-3.0.html
+# ---------------------------------------------------------------------------------
+# Author: @VocaTea
+# scope: hikka_only
+# meta developer: @codrago_m
+# ---------------------------------------------------------------------------------
 #commands: nsfw
-#I think it is not necessary to explain its functionality. 
-
-__version__ = (1, 1)
+__version__ = (1, 0, 1)
 import os
 import logging
 from .. import loader, utils
@@ -11,13 +24,13 @@ import datetime
 from telethon import functions
 from telethon.tl.custom import Message
 
-logger = logging.getLogger("Hent")
+logger = logging.getLogger("HentaiRoulet")
 
 @loader.tds
-class Hent(loader.Module):
+class HentaiRoulet(loader.Module):
     """Hentai roulet"""
     strings = {
-        "name": "Hent",
+        "name": "HentaiRoulet",
         "search": "<emoji document_id=5368580099182435492>👁</emoji> loading your Hentai..."
     }
     
